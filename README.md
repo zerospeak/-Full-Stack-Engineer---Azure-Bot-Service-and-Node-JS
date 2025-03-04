@@ -436,3 +436,14 @@ This testing guide covers the basic functionality of the Support Bot. Document a
 
 These lessons will be valuable for future chatbot development projects and similar applications.
 </details>
+<details>
+  <summary>
+Screenshots from the project
+    
+  </summary>
+  Test results
+  <img width="1044" alt="test results" src="https://github.com/user-attachments/assets/95d20d6e-8dba-4e2d-a2fa-e3c84544204f" />
+  The bot in action
+<img width="1044" alt="test results" src="https://github.com/user-attachments/assets/dc9ce49d-0ceb-4b59-929e-b983a981ec61" />
+
+</details>
