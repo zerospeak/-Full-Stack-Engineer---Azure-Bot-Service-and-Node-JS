@@ -1,5 +1,7 @@
+<details>
+  <summary>
 **Job Title:** Full Stack Engineer - Azure Bot Service and Node.js
-
+  </summary>
 **Location:** Remote (USA)
 
 **Employment Type:** Full-Time / Contract
@@ -56,3 +58,4 @@ ACME Inc. is seeking a skilled Full Stack Engineer with expertise in Azure Bot S
 - Understanding of CI/CD pipelines and best practices.
 
 If you are passionate about technology and eager to contribute to innovative projects at ACME Inc., we encourage you to apply!
+</details>
