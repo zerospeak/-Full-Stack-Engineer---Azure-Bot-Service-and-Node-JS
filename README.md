@@ -113,7 +113,7 @@ If you are passionate about technology and eager to contribute to innovative pro
 These lessons will be valuable for future chatbot development projects and similar applications.
 </details>
 <details>
-<summar>  # Support Bot Capstone Project
+<summary>  # Support Bot Capstone Project
 ## Intelligent Customer Service Automation
 
 **Author:** Leeroy D'Souza  
