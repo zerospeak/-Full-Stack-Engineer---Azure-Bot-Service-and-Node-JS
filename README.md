@@ -61,7 +61,7 @@ If you are passionate about technology and eager to contribute to innovative pro
 </details>
 
 <details>
-<summary>  # My implementation - Support Bot Capstone Project
+<summary>  # My implementation - Support Bot Capstone Project </summary>
 ## Intelligent Customer Service Automation
 
 **Author:** Leeroy D'Souza  
@@ -69,7 +69,7 @@ If you are passionate about technology and eager to contribute to innovative pro
 **Version:** 1.0.0
 
 ---
-</summary>
+
 ## Table of Contents
 
 1. [Executive Summary](#1-executive-summary)
@@ -299,7 +299,37 @@ support-bot-capstone/
 
 This comprehensive guide provides a detailed overview of the Support Bot Capstone Project, covering its architecture, implementation, and maintenance. Junior developers can use this document as a roadmap for understanding and contributing to the project.
 </details>
+<details><summary>Testing the support bot</summary>
+## Test Results Summary
+- All 3 test suites passed successfully
+- Total of 15 tests passed
+- Test execution time: 11.17 seconds
+## Test Suites That Ran
+1. knowledgeBaseService.test.ts - Tests for the knowledge base response system
+2. conversationHistoryService.test.ts - Tests for conversation history storage
+3. nlpService.test.ts - Tests for natural language processing capabilities
+## Console Output Details
+The console output shows:
 
+1. Conversation History Service :
+   
+   - Successfully saved messages for test sessions
+   - Properly rejected a message with an empty session ID (this is expected behavior)
+2. NLP Service :
+   
+   - Successfully trained the intent classifier
+   - Correctly classified test phrases:
+     - "How do I reset my password?" → "password_reset"
+     - "I want to create an account" → "account_creation"
+## What This Means
+Your test suite is working correctly and all the core services of your support bot are functioning as expected. The tests verify that:
+
+1. The bot can understand user intents
+2. It can provide appropriate responses
+3. It properly stores conversation history
+4. It validates input data correctly
+This indicates that the fundamental components of your support bot are working properly and ready for integration.
+</details>
 <details>
   <summary># Support Bot Project - Key Lessons Learned</summary>
 
