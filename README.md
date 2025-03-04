@@ -441,9 +441,9 @@ These lessons will be valuable for future chatbot development projects and simil
 Screenshots from the project
     
   </summary>
-  Test results
+  ##Test results
   <img width="1044" alt="test results" src="https://github.com/user-attachments/assets/95d20d6e-8dba-4e2d-a2fa-e3c84544204f" />
-  The bot in action
+  ##The bot in action
 <img width="614" alt="the bot in action" src="https://github.com/user-attachments/assets/6ae79c0a-c230-4176-9e7e-2c44b0814ba6" />
 
 
