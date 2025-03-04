@@ -59,61 +59,9 @@ ACME Inc. is seeking a skilled Full Stack Engineer with expertise in Azure Bot S
 
 If you are passionate about technology and eager to contribute to innovative projects at ACME Inc., we encourage you to apply!
 </details>
+
 <details>
-  <summary># Support Bot Project - Key Lessons Learned</summary>
-
-## Technical Insights
-1. **Natural Language Processing**
-   - Custom NLP implementation proved effective for basic intent classification
-   - Training data quality significantly impacts response accuracy
-   - Edge cases require careful handling and fallback mechanisms
-
-2. **Database Architecture**
-   - MongoDB works well for storing conversation history
-   - Redis caching improved response times
-   - Connection handling requires careful error management
-
-3. **Testing Strategy**
-   - Jest framework provided good coverage for service testing
-   - More end-to-end testing would be beneficial
-   - Edge case testing revealed important user interaction patterns
-
-## Development Process Learnings
-1. **Code Organization**
-   - Modular service architecture improved maintainability
-   - Separation of concerns between NLP, knowledge base, and chat services
-   - TypeScript type safety caught many potential issues early
-
-2. **Error Handling**
-   - Robust error handling is crucial for chat applications
-   - Graceful fallbacks improve user experience
-   - Logging is essential for debugging and monitoring
-
-3. **Performance Considerations**
-   - Async operations need careful management
-   - Database connection pooling is important
-   - Response time optimization is crucial for chat experience
-
-## Future Improvements
-1. **Feature Enhancements**
-   - Add conversation context awareness
-   - Implement more sophisticated intent matching
-   - Add user feedback mechanism
-
-2. **Infrastructure**
-   - Implement proper monitoring system
-   - Add automated scaling capabilities
-   - Improve deployment automation
-
-3. **User Experience**
-   - Add more varied responses
-   - Implement better conversation flow
-   - Add multi-language support
-
-These lessons will be valuable for future chatbot development projects and similar applications.
-</details>
-<details>
-<summary>  # Support Bot Capstone Project
+<summary>  # My implementation - Support Bot Capstone Project
 ## Intelligent Customer Service Automation
 
 **Author:** Leeroy D'Souza  
@@ -350,4 +298,58 @@ support-bot-capstone/
 ---
 
 This comprehensive guide provides a detailed overview of the Support Bot Capstone Project, covering its architecture, implementation, and maintenance. Junior developers can use this document as a roadmap for understanding and contributing to the project.
+</details>
+
+<details>
+  <summary># Support Bot Project - Key Lessons Learned</summary>
+
+## Technical Insights
+1. **Natural Language Processing**
+   - Custom NLP implementation proved effective for basic intent classification
+   - Training data quality significantly impacts response accuracy
+   - Edge cases require careful handling and fallback mechanisms
+
+2. **Database Architecture**
+   - MongoDB works well for storing conversation history
+   - Redis caching improved response times
+   - Connection handling requires careful error management
+
+3. **Testing Strategy**
+   - Jest framework provided good coverage for service testing
+   - More end-to-end testing would be beneficial
+   - Edge case testing revealed important user interaction patterns
+
+## Development Process Learnings
+1. **Code Organization**
+   - Modular service architecture improved maintainability
+   - Separation of concerns between NLP, knowledge base, and chat services
+   - TypeScript type safety caught many potential issues early
+
+2. **Error Handling**
+   - Robust error handling is crucial for chat applications
+   - Graceful fallbacks improve user experience
+   - Logging is essential for debugging and monitoring
+
+3. **Performance Considerations**
+   - Async operations need careful management
+   - Database connection pooling is important
+   - Response time optimization is crucial for chat experience
+
+## Future Improvements
+1. **Feature Enhancements**
+   - Add conversation context awareness
+   - Implement more sophisticated intent matching
+   - Add user feedback mechanism
+
+2. **Infrastructure**
+   - Implement proper monitoring system
+   - Add automated scaling capabilities
+   - Improve deployment automation
+
+3. **User Experience**
+   - Add more varied responses
+   - Implement better conversation flow
+   - Add multi-language support
+
+These lessons will be valuable for future chatbot development projects and similar applications.
 </details>
