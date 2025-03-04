@@ -299,36 +299,89 @@ support-bot-capstone/
 
 This comprehensive guide provides a detailed overview of the Support Bot Capstone Project, covering its architecture, implementation, and maintenance. Junior developers can use this document as a roadmap for understanding and contributing to the project.
 </details>
-<details><summary>Testing the support bot</summary>
-## Test Results Summary
-- All 3 test suites passed successfully
-- Total of 15 tests passed
-- Test execution time: 11.17 seconds
-## Test Suites That Ran
-1. knowledgeBaseService.test.ts - Tests for the knowledge base response system
-2. conversationHistoryService.test.ts - Tests for conversation history storage
-3. nlpService.test.ts - Tests for natural language processing capabilities
-## Console Output Details
-The console output shows:
+<details>
+  <summary># Support Bot End User Testing Guide</summary>
 
-1. Conversation History Service :
-   
-   - Successfully saved messages for test sessions
-   - Properly rejected a message with an empty session ID (this is expected behavior)
-2. NLP Service :
-   
-   - Successfully trained the intent classifier
-   - Correctly classified test phrases:
-     - "How do I reset my password?" → "password_reset"
-     - "I want to create an account" → "account_creation"
-## What This Means
-Your test suite is working correctly and all the core services of your support bot are functioning as expected. The tests verify that:
+Here's a step-by-step guide for testing the Support Bot application from an end user perspective:
 
-1. The bot can understand user intents
-2. It can provide appropriate responses
-3. It properly stores conversation history
-4. It validates input data correctly
-This indicates that the fundamental components of your support bot are working properly and ready for integration.
+## Prerequisites
+1. Ensure MongoDB is running locally
+2. Ensure Redis is running locally
+3. Make sure the application is built and running
+
+## Step 1: Start the Application
+```bash
+cd c:\Users\leero\source\repos\support-bot-capstone
+npm run dev
+```
+
+## Step 2: Access the Chat Interface
+1. Open your web browser
+2. Navigate to http://localhost:3978
+3. You should see the Customer Support Bot interface with a welcome message
+
+## Step 3: Basic Conversation Testing
+1. **Test basic greeting**
+   - Type: "Hello"
+   - Expected: Bot should respond with a greeting
+
+2. **Test password reset intent**
+   - Type: "I need to reset my password"
+   - Expected: Bot should provide password reset instructions
+
+3. **Test account creation intent**
+   - Type: "How do I create an account?"
+   - Expected: Bot should provide account creation information
+
+4. **Test product information intent**
+   - Type: "Tell me about your products"
+   - Expected: Bot should provide product information
+
+## Step 4: Test Error Handling
+1. **Test empty message**
+   - Send an empty message
+   - Expected: Bot should ask for clarification
+
+2. **Test very short message**
+   - Type: "Hi"
+   - Expected: Bot should ask for more details
+
+3. **Test unknown intent**
+   - Type: "xyzabc123"
+   - Expected: Bot should respond that it doesn't understand
+
+## Step 5: Test Multi-turn Conversation
+1. **Start with a general question**
+   - Type: "I have a problem with my order"
+   - Expected: Bot should ask for more details
+
+2. **Provide order details**
+   - Type: "My order #12345 hasn't arrived"
+   - Expected: Bot should acknowledge the order number and provide shipping information
+
+## Step 6: Verify Conversation History
+1. Run the MongoDB structure script to check if conversations are being saved:
+```bash
+cd c:\Users\leero\source\repos\support-bot-capstone
+node scripts\show-mongodb-structure.js
+```
+2. Check for the "messages" collection and verify your conversation appears
+
+## Step 7: Test Session Management
+1. Close the browser and reopen it
+2. Navigate back to http://localhost:3978
+3. Start a new conversation
+4. Run the Redis structure script to verify session data:
+```bash
+node scripts\show-redis-structure.js
+```
+
+## Common Issues and Troubleshooting
+- If the bot doesn't respond, check the console for errors
+- If MongoDB connection fails, ensure MongoDB is running on the default port
+- If Redis connection fails, ensure Redis server is active
+
+This testing guide covers the basic functionality of the Support Bot. Document any unexpected behaviors or issues encountered during testing.
 </details>
 <details>
   <summary># Support Bot Project - Key Lessons Learned</summary>
