@@ -444,6 +444,7 @@ Screenshots from the project
   Test results
   <img width="1044" alt="test results" src="https://github.com/user-attachments/assets/95d20d6e-8dba-4e2d-a2fa-e3c84544204f" />
   The bot in action
-<img width="1044" alt="test results" src="https://github.com/user-attachments/assets/dc9ce49d-0ceb-4b59-929e-b983a981ec61" />
+<img width="614" alt="the bot in action" src="https://github.com/user-attachments/assets/6ae79c0a-c230-4176-9e7e-2c44b0814ba6" />
+
 
 </details>
