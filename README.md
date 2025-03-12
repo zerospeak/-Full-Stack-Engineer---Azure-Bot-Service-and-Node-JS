@@ -1,7 +1,6 @@
-<details>
-  <summary>
+
 **Job Title:** Full Stack Engineer - Azure Bot Service and Node.js
-  </summary>
+
 **Location:** Remote (USA)
 
 **Employment Type:** Full-Time / Contract
